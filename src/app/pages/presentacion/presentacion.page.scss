@@ -1,0 +1,90 @@
+
+
+
+.btncon{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.btnknow{
+    text-transform: uppercase;  
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.btnfill{
+    margin-right: 8px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    background: #57B0FF;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 1.2rem;
+    height: 47px;
+}
+
+.btnfill:hover{
+    text-transform: uppercase;
+    background: #007ff0;
+    
+}
+
+
+.headerclase{
+    display: inherit;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 77px;
+    vertical-align: middle;
+}
+ button{
+     margin-right: 30px;
+     font-weight: 800;
+ }
+ .btnknowme{
+    padding-right: 8px;
+    padding-left: 8px;
+ }
+ 
+
+.circulo{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 51px;
+    font-weight: 700;
+    background: #384148;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    transition: all 0.15s ease-in-out;
+    margin-left: 15px;
+}
+
+.btnknowme:hover{
+    color: #007ff0;
+    -webkit-transition: 0.1s color ease-in-out;
+    transition: 0.1s color ease-in-out;
+}
+
+
+@media only screen and (min-width: 768px){
+    .sidemenubutton{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    
+    .btnknowme{
+        display: none;
+    }
+    
+}
